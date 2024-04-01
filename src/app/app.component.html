@@ -1,5 +1,12 @@
 <main>
   <h1>{{title}}</h1>
 
-  <app-customer-dashboard></app-customer-dashboard>
+  <div [style]="{
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '10px'
+    }">
+    <app-customer-dashboard></app-customer-dashboard>
+    <app-customer-directive></app-customer-directive>
+  </div>
 </main>

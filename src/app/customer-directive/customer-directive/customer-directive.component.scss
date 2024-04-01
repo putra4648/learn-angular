@@ -1,0 +1,19 @@
+.container-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.container {
+  width: 200px;
+  height: 200px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}

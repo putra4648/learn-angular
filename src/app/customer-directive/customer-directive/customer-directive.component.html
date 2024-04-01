@@ -1,0 +1,24 @@
+<div class="border">
+  <h3>Using Directives</h3>
+
+  <div class="container-parent">
+    <div>
+      <h5>With NgClass</h5>
+      <div class="container" [ngClass]="isRandom ? 'red' : 'blue'"></div>
+      <button type="button" (click)="clickRandom()">Click Me</button>
+    </div>
+
+    <div>
+      <h5>With NgStyle</h5>
+      <div class="container" [ngStyle]="containerRandomStyle"></div>
+      <button type="button" (click)="clickRandomStyle()">Click Me</button>
+    </div>
+
+    <div>
+      <h5>With NgIf</h5>
+      <p *ngIf="isRandom">Hello World</p>
+      <button type="button" (click)="clickIf()">Click Me</button>
+    </div>
+
+  </div>
+</div>
