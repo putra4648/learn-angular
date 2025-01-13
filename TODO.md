@@ -4,7 +4,7 @@ This repo is used for learning purpose how to learn `Angular` ecosystem with ver
 
 ## List
 - [x] Module
-- [ ] Directives
+- [x] Directives
 - [ ] NgTemplate
 - [ ] Environment
 - [ ] RxJs a.k.a Reactive JS (this is already included in `Angular`)
